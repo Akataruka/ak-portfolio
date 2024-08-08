@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
 // import LazyVoxelDog from "@/components/Voxel_dog"
-import VoxelDogLoader from "@/components/Voxel_Dog_Loader";
+import VoxelDogLoader from "@/components/VoxelDogLoader";
 import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
