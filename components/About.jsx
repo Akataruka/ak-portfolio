@@ -18,7 +18,7 @@ const About = () => {
         <Headingabout heading="About" />
         <p className="font-mono antialiased text-md text-justify hyphens-auto break-normal indent-8 text-gray-50 pt-3 ">
           I am a dedicated B.Tech Computer Science student at IIIT Bhubaneswar
-          with a CGPA of 9.6. Skilled in frontend development and machine
+          with a CGPA of 9.60 . Skilled in frontend development and machine
           learning, I am passionate about Generative AI. My commitment to
           excellence drives me to tackle complex challenges and innovate
           continuously. I am eager to apply my skills and passion to
