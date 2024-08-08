@@ -14,5 +14,14 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  variants: {
+    extend: {
+      backdropFilter: ['responsive'],
+      backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+      backgroundOpacity: ['responsive', 'hover', 'focus', 'active'],
+      borderColor: ['responsive', 'hover', 'focus', 'active'],
+      textColor: ['responsive', 'hover', 'focus', 'active'],
+    },
+  },
+
 };

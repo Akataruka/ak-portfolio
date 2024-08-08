@@ -1,0 +1,36 @@
+import { Inter } from "next/font/google";
+import "@/app/globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import dynamic from "next/dynamic";
+import VoxelDogLoader from "@/components/Voxel_Dog_Loader";
+import Head from "next/head";
+
+const inter = Inter({ subsets: ["latin"] });
+
+const LazyVoxelDog = dynamic(() => import("@/components/Voxel_dog"), {
+  ssr: false,
+  loading: () => <VoxelDogLoader />,
+});
+
+
+
+const RootLayout = ({ children }) => {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Navbar />
+        <div className="bg-[#202023] pt-24 pb-4 w-full flex justify-center min-h-[calc(100vh-48px)]">
+          <div className="w-full md:w-[600px] p-4">
+            <LazyVoxelDog />
+
+            {children}
+          </div>
+        </div>
+        <Footer />
+      </body>
+    </html>
+  );
+};
+
+export default RootLayout;
