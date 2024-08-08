@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import Profile from "@/components/profile";
+import Profile from "@/components/Profile";
 import React from "react";
 import AnimatedComponent from "@/components/AnimatedComponent";
 

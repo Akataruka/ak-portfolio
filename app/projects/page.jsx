@@ -1,5 +1,5 @@
 import React from "react";
-import Projectmain from "@/components/projectmain";
+import Projectmain from "@/components/Projectmain";
 import AnimatedComponent from "@/components/AnimatedComponent";
 
 export const metadata = {
