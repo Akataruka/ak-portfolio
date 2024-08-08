@@ -1,16 +1,3 @@
-export const Projectname = [
-  "boot-camp",
-  "food-order-app",
-  "editing-web-app",
-  "hand-tracking",
-  "alpaca-detection",
-  "instagram-caption-extractor",
-  "moorsecode-generator",
-  "To-Do-List",
-  "Tic-Tac-Toe",
-  "currency-converter",
-];
-
 export const Projectsdata = [
   {
     title: "boot-camp",

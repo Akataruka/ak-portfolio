@@ -11,6 +11,7 @@ const Projectdetail = ({ links,stack }) => {
           <Headblock title={link.title} />
           <Link
             href={link.link}
+            target="_blank"
             className="w-[80%] text-pink-400 flex flex-row justify-start items-center hover:text-pink-500 gap-2"
           >
             <span className="text-sm hover:underline  underline-offset-4">

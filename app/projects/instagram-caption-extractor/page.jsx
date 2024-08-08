@@ -2,20 +2,20 @@ import AnimatedComponent from "@/components/AnimatedComponent";
 import Projectdetail from "@/components/Projectdetail";
 import Projecthead from "@/components/Projecthead";
 import Projectimage from "@/components/Projectimage";
-import { Projectname, Projectsdata } from "./_data";
-import { redirect } from "next/navigation";
+import {Projectsdata } from "../_data";
 
 
-const page = ({ params }) => {
-  if (!Projectname.includes(params.title)) {
-    redirect("/not-found");
-  }
+export const metadata = {
+    title: "Projects - instagram-caption-extractor",
+    description: "Created by Asutosh Kataruka",
+  };
+
+const page = () => {
   
   const project = Projectsdata.find(
-    (project) => project.title === params.title
+    (project) => project.title === "instagram-caption-extractor"
   ).data;
   
-  generateMetadata(project.title);
   return (
     <>
       <AnimatedComponent>
@@ -30,13 +30,6 @@ const page = ({ params }) => {
   );
 };
 
-
-export async function generateMetadata({params}) {
-  return {
-    title:  `Projects - ${params.title}`,
-    description: 'Created by Asutosh Kataruka',
-  }
-}
 
 
 export default page;

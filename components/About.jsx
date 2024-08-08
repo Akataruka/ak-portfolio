@@ -24,7 +24,7 @@ const About = () => {
           continuously. I am eager to apply my skills and passion to
           cutting-edge projects, contributing to the future of technology.
         </p>
-        <Linkbutton title="Resume" link={"/"} />
+        <Linkbutton title="Resume" link={"https://drive.google.com/file/d/126YEvNqq3tf-_0S-87FsdWV8bzizOTIv/view?usp=drivesdk"} blank={true} />
 
         <Headingabout heading="Bio" />
         <div className="mt-4 flex flex-col gap-1 justify-start">

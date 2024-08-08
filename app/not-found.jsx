@@ -15,7 +15,7 @@ const NotFound = () => {
         </p>
         <hr className="my-6" />
       </div>
-      <Linkbutton title="Back to home" link={"/"} />
+      <Linkbutton title="Back to home" link={"/"} blank={false} />
     </>
   );
 };
