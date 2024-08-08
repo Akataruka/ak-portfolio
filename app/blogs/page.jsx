@@ -1,3 +1,4 @@
+
 import AnimatedComponent from "@/components/AnimatedComponent";
 import Blogsmain from "@/components/Blogsmain";
 import React from "react";
@@ -7,7 +8,7 @@ export const metadata = {
   description: "Created by Asutosh Kataruka",
 };
 
-const Blogs = () => {
+const page = () => {
   return (
     <>
       <AnimatedComponent>
@@ -17,4 +18,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default page;

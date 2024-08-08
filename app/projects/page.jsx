@@ -7,12 +7,12 @@ export const metadata = {
   description: "Created by Asutosh Kataruka",
 };
 
-const Projects = () => {
+const page = () => {
   return (
     <AnimatedComponent>
       <Projectmain />
-    </AnimatedComponent>
+     </AnimatedComponent>
   );
 };
 
-export default Projects;
+export default page;

@@ -6,7 +6,7 @@ import { Projectname, Projectsdata } from "./_data";
 import { redirect } from "next/navigation";
 
 
-const Projects = ({ params }) => {
+const page = ({ params }) => {
   if (!Projectname.includes(params.title)) {
     redirect("/not-found");
   }
@@ -39,4 +39,4 @@ export async function generateMetadata({params}) {
 }
 
 
-export default Projects;
+export default page;

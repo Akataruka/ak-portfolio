@@ -8,7 +8,7 @@ export const metadata = {
   description: "Created by Asutosh Kataruka",
 };
 
-const Home = () => {
+const page = () => {
   return (
     <>
       <AnimatedComponent>
@@ -24,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default page;

@@ -12,7 +12,7 @@ export const metadata = {
   description: "Created by Asutosh Kataruka",
 };
 
-const skills = () => {
+const page = () => {
   return (
     <AnimatedComponent>
       <div>
@@ -111,4 +111,4 @@ const skills = () => {
   );
 };
 
-export default skills;
+export default page;

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
+import { useEffect } from "react";
 
 
 const variants = {
@@ -11,9 +12,16 @@ const variants = {
 
 
 const AnimatedComponent = ({ children }) => {
-  if( window !== undefined){
+
+  useEffect(() => {
+    
+    if( window !== undefined){
     window.scrollTo({top:0, behavior: 'smooth'});
   }
+
+    // window.scrollTo({top:0, behavior: 'smooth'})
+  });
+  
   return (
     <AnimatePresence  
     mode="wait"
