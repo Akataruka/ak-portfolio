@@ -9,7 +9,7 @@ import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const LazyVoxelDog = dynamic(() => import("@/components/Voxel_dog"), {
+const LazyVoxelDog = dynamic(() => import("@/components/Voxeldog"), {
   ssr: false,
   loading: () => <VoxelDogLoader />,
 });
