@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Projectbox from "./projectbox";
+import Projectbox from "./Projectbox";
 import { useState } from "react";
 
 const projectitems = [
