@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
 import VoxelDogLoader from "@/components/Voxel_Dog_Loader";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
