@@ -3,6 +3,7 @@ import "@/app/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
+import { Analytics } from '@vercel/analytics/react';
 // import LazyVoxelDog from "@/components/Voxel_dog"
 import VoxelDogLoader from "@/components/Voxeldogloader"
 const inter = Inter({ subsets: ["latin"] });
@@ -27,6 +28,7 @@ const RootLayout = ({ children }) => {
             </Suspense> */}
             <LazyVoxelDog />
             {children}
+            <Analytics />
           </div>
         </div>
         <Footer />
