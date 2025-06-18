@@ -1,11 +1,21 @@
 import React from 'react'
-import TypeWritercursor from './TypeWriter'
+import Blogsbox from "./Blogsbox";
+
+const Blogitems = [
+  {
+    name: "🚀 Introduction to System Design: LLD and SOLID Principles",
+    src: "/images/blogs/blog1.png",
+    link: "https://system-design-lld.hashnode.dev/introduction-to-system-design-lld-and-solid-principles",
+  },
+];
 
 const Blogsmain = () => {
   return (
-    <div className='text-gray-50 mt-4 tracking-widest w-full text-center text-lg sm:text-xl  '>
-        Coming Soon <TypeWritercursor speed={300} words={["", ". . ."]} />
-    </div>
+    <div className="mt-4 w-full flex flex-row gap-4 justify-evenly items-center flex-wrap">
+      {Blogitems.map((item, index) => (
+        <Blogsbox key={index} index={index} item={item} />
+      ))}
+      </div>
   )
 }
 

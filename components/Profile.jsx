@@ -12,13 +12,13 @@ const Profile = () => {
         <div className="font-mono text-sm sm:pl-4 sm:text-xl text-center sm:text-left ">
           <TypeWritercursor
             speed = {50}
-            words={["Frontend Developer", "Machine Learning Engineer"]}
+            words={["C++ & System Design Learner","ML Engineer","Software Developer","Technical Blog Writer"]}
           />
         </div>
       </div>
       <div className="relative border-2 h-24 w-24 sm:w-1/6 grid items-center sm:h-24 border-slate-100 rounded-full">
         <Image
-          src={"/images/author.jpg"}
+          src={"/images/author.jfif"}
           alt="Picture of the author"
           fill
           className="object-cover rounded-full"

@@ -4,11 +4,12 @@ import Linkbutton from "./Linkbutton";
 import Listbio from "./Listbio";
 import {
   IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoGithub,
   IoLogoLinkedin,
   IoMailUnread,
 } from "react-icons/io5";
+import { FaHashnode } from "react-icons/fa6";
+import { BiLogoDevTo } from "react-icons/bi";
 import Link from "next/link";
 
 const About = () => {
@@ -17,14 +18,9 @@ const About = () => {
       <div>
         <Headingabout heading="About" />
         <p className="font-mono antialiased text-md text-justify hyphens-auto break-normal indent-8 text-gray-50 pt-3 ">
-          I am a dedicated B.Tech Computer Science student at IIIT Bhubaneswar
-          with a CGPA of 9.60 . Skilled in frontend development and machine
-          learning, I am passionate about Generative AI. My commitment to
-          excellence drives me to tackle complex challenges and innovate
-          continuously. I am eager to apply my skills and passion to
-          cutting-edge projects, contributing to the future of technology.
+          I am a Computer Science student at IIIT Bhubaneswar with a GPA of 9.6, strong CS fundamentals, and a solid background in C++. I enjoy solving problems using data structures and algorithms, and I'm currently exploring system design, machine learning, and deep learning. I have hands-on experience working with deep leanrning models and building data pipelines. Passionate about LLMs, and agentic AI, I actively share my learnings with the community through technical blogs.
         </p>
-        <Linkbutton title="Resume" link={"https://drive.google.com/file/d/126YEvNqq3tf-_0S-87FsdWV8bzizOTIv/view?usp=drivesdk"} blank={true} />
+        <Linkbutton title="Resume" link={"https://drive.google.com/file/d/1zR3LT85NApDnLevsSPmgySONx1Kubcu_/view?usp=drivesdk"} blank={true} />
 
         <Headingabout heading="Bio" />
         <div className="mt-4 flex flex-col gap-1 justify-start">
@@ -44,7 +40,7 @@ const About = () => {
         </div>
         <Headingabout heading="I &#9829;" />
         <p className="font-mono antialiased mt-4 text-md text-start indent-8  pl-2 text-gray-50">
-          Gaming, Art, Listening Music, Travelling, Coding
+          Listening Music, Travelling, Blog Writing, Designing Complex Systems, Coding, Problem solving 
         </p>
 
         <Headingabout heading="On the web" />
@@ -66,13 +62,22 @@ const About = () => {
             <span className="pl-1 pr-3 text-teal-500">@asutosh-kataruka</span>
           </Link>
           <Link
-            href={"https://www.instagram.com/_asutoshk.09_/"}
+            href={"https://hashnode.com/@asutoshk09"}
             target="_blank"
             className="hover:bg-teal-500/[0.2] font-sans  rounded-lg font-bold h-8 flex items-center p-2"
           >
-            <IoLogoInstagram className="text-teal-500" size={20} />
-            <span className="pl-1 pr-3 text-teal-500">@_asutoshk.09_</span>
+            <FaHashnode className="text-teal-500" size={20} />
+            <span className="pl-1 pr-3 text-teal-500">@asutoshk09</span>
           </Link>
+          <Link
+            href={"https://dev.to/asutoshk_09"}
+            target="_blank"
+            className="hover:bg-teal-500/[0.2] font-sans  rounded-lg font-bold h-8 flex items-center p-2"
+          >
+            <BiLogoDevTo className="text-teal-500" size={20} />
+            <span className="pl-1 pr-3 text-teal-500">@asutoshk09</span>
+          </Link>
+      
           <Link
             href={
               "https://x.com/i/flow/login?redirect_after_login=%2FAsutoshK_09"
