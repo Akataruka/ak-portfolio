@@ -18,7 +18,7 @@ const Profile = () => {
       </div>
       <div className="relative border-2 h-24 w-24 sm:w-1/6 grid items-center sm:h-24 border-slate-100 rounded-full">
         <Image
-          src={"/images/author.jfif"}
+          src={"/images/author1.png"}
           alt="Picture of the author"
           fill
           className="object-cover rounded-full"
