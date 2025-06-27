@@ -7,6 +7,16 @@ const Blogitems = [
     src: "/images/blogs/blog1.png",
     link: "https://system-design-lld.hashnode.dev/introduction-to-system-design-lld-and-solid-principles",
   },
+  {
+    name: "🔍 Building a LeetCode Rank Search Chrome Extension",
+    src: "/images/blogs/blog2.png",
+    link: "https://development-daily-ak.hashnode.dev/crafting-perfect-cold-messages-my-ai-powered-streamlit-app-journey",
+  },
+  {
+    name: "Crafting Perfect Cold Messages: My AI-Powered Streamlit App Journey 🧊",
+    src: "/images/blogs/blog3.png",
+    link: "https://development-daily-ak.hashnode.dev/building-a-leetcode-rank-search-chrome-extension-track-multiple-users-in-one-click",
+  },
 ];
 
 const Blogsmain = () => {
